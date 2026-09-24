@@ -399,7 +399,6 @@ void PingPong_SendReadyBuffers(void)
     // Sleep a short time to avoid hogging the CPU
     //Task_sleep(10);
 }
-}
 // Flush any partial buffer on logging stop
 // Called in Timer1A_Handler when phase changes
 void DataLog_FlushPartial(void)
