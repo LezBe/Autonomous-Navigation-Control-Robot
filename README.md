@@ -135,7 +135,12 @@ Team 16:
 
 ## Documentation
 
-The original project package also includes a final report and an embedded code/process diagram. Those files document the component specifications, pin assignments, APIs, RTOS organization, Bluetooth/USB command interface, circuit diagram, and final integration behavior.
+Documentation summaries derived from the original final report and embedded code/process diagram are included in this repository:
+
+- [Final Report Summary](docs/PROJECT_REPORT_SUMMARY.md)
+- [Embedded System Flow](docs/SYSTEM_FLOW.md)
+
+The original project documentation covers component specifications, pin assignments, APIs, RTOS organization, Bluetooth/USB command interfaces, the circuit diagram, and final integration behavior.
 
 ## Repository Structure
 
@@ -144,15 +149,18 @@ The original project package also includes a final report and an embedded code/p
 ├── README.md
 ├── TECHNICAL_NOTES.md
 ├── .gitignore
+├── docs/
+│   ├── PROJECT_REPORT_SUMMARY.md
+│   └── SYSTEM_FLOW.md
 └── firmware/
     └── Integration_Team16/
         ├── empty_min.c
         ├── empty_min.cfg
         ├── Board.h
-        ├── EK_TM4C123GXL.c
-        ├── EK_TM4C123GXL.h
         ├── EK_TM4C123GXL.cmd
-        └── CCS project files
+        ├── .ccsproject
+        ├── .project
+        └── targetConfigs/
 ```
 
 ## Development Environment
