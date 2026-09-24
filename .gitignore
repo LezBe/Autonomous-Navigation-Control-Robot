@@ -1,0 +1,25 @@
+# Code Composer Studio / Eclipse generated content
+Debug/
+Release/
+.config/
+.settings/
+.launches/
+.metadata/
+.xdchelp
+
+# Build products
+*.obj
+*.out
+*.map
+*.d
+*.dep
+*.xml
+*.o
+*.oem4f
+*.mak
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
